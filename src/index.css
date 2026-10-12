@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+:root {
+  font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #17263e;
+  background: #f5f7fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --navy: #142b4b;
+  --navy-deep: #102441;
+  --blue: #3478ed;
+  --ink: #17263e;
+  --muted: #7c899b;
+  --line: #e8edf4;
+  --panel: #ffffff;
+  --canvas: #f5f7fb;
+  --green: #198267;
+  --red: #d75054;
+  --amber: #ca8433;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 360px; scroll-behavior: smooth; }
+body { min-width: 360px; margin: 0; }
+button, input, select, textarea { font: inherit; }
+button { color: inherit; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, label:has(input[type="file"]:focus-visible) { outline: 3px solid #8bb5ff; outline-offset: 2px; }
+button:disabled { cursor: not-allowed; opacity: .65; }
+a { color: inherit; text-decoration: none; }
+::selection { color: #102441; background: #d9e8ff; }
